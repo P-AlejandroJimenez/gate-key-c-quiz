@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Code Quiz</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scal-1">
+            <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <div class = "timer-text"></div>
+            <div class = "time-Remaining">100</div>
+            <h3>Seconds Remaining</h3>
+            <div class = "view-highscores">View Highscores</div>
+        </header>
+    <main>
+        <div class="wrapper">
+            <div id="start-page"></div>
+            <h1>Code Quiz Challenge</h1>
+                <h2 id="quiz-parameters">Answer the following code-related questions within the time alloted. Do keep in mind that incorrect answers will deduct 15 seconds off the time-clock. Good luck!</h2>
+                <button class = "start-button">Start Quiz</button>
+            <div id="questions"></div>
+                <h2 id="question-title"></h2>
+                <div id = "choices" class = "choices">
+                    <button class = "choice" value = "strings"> 1.</button>
+                    <button class = "choice" value = "strings"> 2.</button>
+                    <button class = "choice" value = "strings"> 3.</button>
+                    <button class = "choice" value = "strings"> 4.</button>
+                </div>
+        </div>       
+        <script src ="./script.js"></script>
+    </main>
+    </body>
+</html>
